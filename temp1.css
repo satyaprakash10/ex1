@@ -1,7 +1,7 @@
-    body {
+    body{
         overflow: hidden;
-        margin: 0px;
-        padding: 0px;
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
         
     }
     .main {
@@ -14,80 +14,68 @@
         left:0;
         right:0;
     }  
-    .sidebar {
+    .sidebar{
         display: flex;
         position: relative;
         flex-direction: column;
-        height: 200%;
+        width: 15%;
         background: #b0623f;
         padding: 100px 30px 0 30px;
     }   
-    .list {
+    .list{
         justify-content: center;
         align-items: center;
     }
 
-    .sidebar-image { 
+    .sidebar-image{ 
         border-radius:50%;
         width:180px;
         height: 180px;  
         border: 5px solid #d38572;
     }
 
-    ul {
+    ul{
         display: flex;
         flex-direction: column;
         list-style:none;
         padding: 0 0 0 0;
     }
-    .space {
+    .space{
         padding: 8px;
     }
-    .format {
+    .format{
         color:#df9e80;
     }
-    .format:hover {
+    .format:hover{
         color: white;
     }
-    .format1:hover :active {
+    .format1:hover :active{
         color: white;
     }
-    .content {
+    .content{
         display: flex;
         flex-direction: column;
         width:100%;
-        height:100%;
+        height:90%;
         position: relative;  
         padding: 0 0 0 0;
         margin: 0 0 0 0;
     }
-    .section1 {
+    .section1{
         position: relative;
         padding: 100px 100px; 
-        height: 80%;
+        height: 100%;
         background: white;
         /* border: 5px solid white; */
     }
-    .title {
+    .title{
         color: black;
         font-size: 50px;
-        margin: 100px 0 5px 0px;
+        margin: 75px 0 10px 0px;
 
       }
       .text{
           color: #b0623f;
-      }
-      .section2 {
-          position: relative;
-          height: 10%;
-          width: 100%;
-          /* padding:30; */
-          flex-direction:center;
-          /* background: orange; */
-          overflow-y: hidden;
-          margin-top:15%;
-          border-top: 1px solid gray;
-          
       }
       .add{
         overflow-y: hidden;
@@ -97,17 +85,20 @@
       }
       .email{
           color:red;
-      }
+       }
       .description{
           padding: 0;
           margin: 0;
           color:grey;
           margin: 0;
       }
-      .icon{
-      padding-top:2%; 
+     .icon{
+      display: flex;
+      padding-top: 0 0 98% 9px; 
       font-size: 20px;    
-      margin-top: 0 0 0 0;  
+      margin: 15px 8px 20% 2px;
+      padding-left: 0 1px 0 1px;
+      flex-direction: row;  
       }
       .icon-round
       {
@@ -116,16 +107,25 @@
         border: 2x  rgb(158, 155, 155);
         color:white;
         padding: 10px;
-        margin: 0.5%;
+        margin: 1% 1% 2 1px;
       }
-      .footer {
+      .list {
+          padding: 10px 10px 0px 10px;
+      }
+      .footer{
+          display: flex;
           width: 100%;
-          text-align: left;
-          font-size: 38px;
+          position: relative;
+          font-size: 25px;
           font-weight: bold;
           color:black;
           /* margin-top:0 0 0 0; */
           /* padding-bottom: 25px; */
-           margin: 2% 0 0 0 ;
-           padding:0 0 0 0;
+          /* margin: 0 0 0 0 ; */
+          /* padding:5px 0 0 10px; */
+          align-items: center;
+          /* text-align: center; */
+          margin-top: 20px;
+          height: 10%;
+          position: fixed;
       }
