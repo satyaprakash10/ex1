@@ -1,0 +1,131 @@
+    body {
+        overflow: hidden;
+        margin: 0px;
+        padding: 0px;
+        
+    }
+    .main {
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        margin: 0 0 0 0;
+        display: flex;
+        padding: 0 0 0 0;
+        left:0;
+        right:0;
+    }  
+    .sidebar {
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        height: 200%;
+        background: #b0623f;
+        padding: 100px 30px 0 30px;
+    }   
+    .list {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sidebar-image { 
+        border-radius:50%;
+        width:180px;
+        height: 180px;  
+        border: 5px solid #d38572;
+    }
+
+    ul {
+        display: flex;
+        flex-direction: column;
+        list-style:none;
+        padding: 0 0 0 0;
+    }
+    .space {
+        padding: 8px;
+    }
+    .format {
+        color:#df9e80;
+    }
+    .format:hover {
+        color: white;
+    }
+    .format1:hover :active {
+        color: white;
+    }
+    .content {
+        display: flex;
+        flex-direction: column;
+        width:100%;
+        height:100%;
+        position: relative;  
+        padding: 0 0 0 0;
+        margin: 0 0 0 0;
+    }
+    .section1 {
+        position: relative;
+        padding: 100px 100px; 
+        height: 80%;
+        background: white;
+        /* border: 5px solid white; */
+    }
+    .title {
+        color: black;
+        font-size: 50px;
+        margin: 100px 0 5px 0px;
+
+      }
+      .text{
+          color: #b0623f;
+      }
+      .section2 {
+          position: relative;
+          height: 10%;
+          width: 100%;
+          /* padding:30; */
+          flex-direction:center;
+          /* background: orange; */
+          overflow-y: hidden;
+          margin-top:15%;
+          border-top: 1px solid gray;
+          
+      }
+      .add{
+        overflow-y: hidden;
+        color:grey;
+        padding: 0 0 2% 0;
+        margin: 0 0 2% 0;
+      }
+      .email{
+          color:red;
+      }
+      .description{
+          padding: 0;
+          margin: 0;
+          color:grey;
+          margin: 0;
+      }
+      .icon{
+      padding-top:2%; 
+      font-size: 20px;    
+      margin-top: 0 0 0 0;  
+      }
+      .icon-round
+      {
+        background-color: gray;
+        border-radius: 52%;
+        border: 2x  rgb(158, 155, 155);
+        color:white;
+        padding: 10px;
+        margin: 0.5%;
+      }
+      .footer {
+          width: 100%;
+          text-align: left;
+          font-size: 38px;
+          font-weight: bold;
+          color:black;
+          /* margin-top:0 0 0 0; */
+          /* padding-bottom: 25px; */
+           margin: 2% 0 0 0 ;
+           padding:0 0 0 0;
+      }
